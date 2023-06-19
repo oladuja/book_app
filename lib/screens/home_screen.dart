@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
               SizedBox(
                 height: MediaQuery.of(context).padding.top,
               ),
-              const SearchBar(),
+              const AppSearchBar(),
               const Padding(
                 padding: EdgeInsets.symmetric(vertical: 10.0),
                 child: Text(

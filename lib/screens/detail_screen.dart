@@ -22,9 +22,9 @@ class DetailScreen extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   const SizedBox(height: 20),
-                  Row(
+                  const Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: const [
+                    children: [
                       Text(
                         'The Light between Oceans',
                         style: TextStyle(
@@ -76,11 +76,11 @@ class DetailScreen extends StatelessWidget {
                       color: Colors.grey.withOpacity(0.3),
                     ),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 10.0),
+                  const Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 10.0),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: const [
+                      children: [
                         DetailItem(
                           title: 'See Reviews',
                           image: 'assets/images/Chat.png',

@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 
 import '../helper/log.dart';
 
-class SearchBar extends StatefulWidget {
-  const SearchBar({
+class AppSearchBar extends StatefulWidget {
+  const AppSearchBar({
     super.key,
   });
 
   @override
-  State<SearchBar> createState() => _SearchBarState();
+  State<AppSearchBar> createState() => _AppSearchBarState();
 }
 
-class _SearchBarState extends State<SearchBar> {
+class _AppSearchBarState extends State<AppSearchBar> {
   TextEditingController controller = TextEditingController();
 
   @override
@@ -60,5 +60,7 @@ class _SearchBarState extends State<SearchBar> {
         ),
       ),
     );
+  
+  
   }
 }
